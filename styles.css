@@ -11,17 +11,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:18px;
+    font-family: 'Outfit',sans-serif;
+    background-color: hsl(30, 20%, 96%)
    
 }
+.left-align{
+    text-align: left;
+    padding-left: 20px;
+}
 
-/* main{
-    width: 90%;
-    margin: 20px auto;
-    border: 1px solid red;
-} */
 
 main{
-    border: 1px solid blue;
+   
     width:90%;
     margin:40px 0;
     display: grid;
@@ -31,6 +33,146 @@ main{
 
 }
 .title{
-    border: 1px solid red;
+   
+    border-radius:20px;
+    padding:20px;
+    background-color: hsl(256, 67%, 59%);
     
+}
+.title img{
+    width:180px;
+}
+h1{
+    font-weight: 500;
+    color:hsl(0, 0%, 100%);
+}
+h2{
+    font-weight: 500;
+}
+.title p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+.number{
+    color:hsl(39, 100%, 71%);
+
+}
+
+
+
+
+
+.manage{
+   
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.manage img {
+    width: 400px;
+    padding:20px 0
+}
+.manage h2{
+   
+    padding-bottom:20px ;
+}
+
+.maintain{
+    border-radius: 20px;
+    text-align: left;
+ 
+    padding: 20px 20px 0 20px;
+    background-color: hsl(39, 100%, 71%);
+
+    position: relative;
+    overflow: hidden;
+}
+.maintain img{
+    width:200px;
+    position: relative;
+    bottom:-20px;
+}
+
+
+
+.schedule{
+    
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(254, 88%, 90%);
+    
+
+
+}
+
+.schedule img{
+    width: 350px;
+    padding: 20px 0;
+}
+
+.followers{
+    border: 1px solid red;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(256, 67%, 59%);
+    color:hsl(0, 0%, 100%);
+    
+
+}
+
+.followers img{
+    width: 300px;
+    padding-bottom: 20px;
+
+}
+
+.audience{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.audience h2{
+    font-size: 40px;
+    
+}
+.audience p{
+    padding: 20px 0;
+}
+
+.audience img {
+    width: 200px;
+    
+
+}
+
+.post{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(31, 66%, 93%);
+
+}
+
+.post  em{
+    color: hsl(256, 67%, 59%);
+}
+
+.post img{
+    width: 200px;
+    padding-top: 20px;
+}
+
+.content{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(39, 100%, 71%);
+
+
+
+
+}
+
+.content img{
+ width: 200px;
+padding-top: 20px;
+
 }
