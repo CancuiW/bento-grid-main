@@ -110,7 +110,6 @@ h2{
 }
 
 .followers{
-    border: 1px solid red;
     padding: 20px;
     border-radius: 20px;
     background-color: hsl(256, 67%, 59%);
@@ -174,5 +173,63 @@ h2{
 .content img{
  width: 200px;
 padding-top: 20px;
+
+}
+
+@media (min-width:600px){
+    body{
+        font-size: 16px;
+    }
+
+
+    main{
+       
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(10, 1fr);
+        height: 100vh;
+       
+    }
+    .post{
+        grid-column: 1/2;
+        grid-row: 1/span 5;
+    }
+    .title{
+        grid-column: 2/4;
+        grid-row: 1/span 4;
+    }
+    .schedule{
+        grid-column: 4/ span 1;
+        grid-row: 1/span 7;
+    }
+
+    .content{
+        grid-column: 1/2;
+        grid-row: 5/span 5;
+    }
+    .manage{
+        grid-column: 2/3;
+        grid-row: 5/span 3;
+
+    }
+    .audience{
+        grid-column: 2/3;
+        grid-row: 8/span 3;
+    }
+    .maintain{
+        grid-column: 3/4;
+        grid-row: 5/span 3;
+    }
+    .followers{
+        grid-column: 3/ span 2;
+        grid-row: 8/span 3;
+    }
+
+    .manage img{
+        width:90%;
+     }
+
+
+
+
 
 }
