@@ -64,6 +64,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 2.position:relative; 
   bottom:-20px 
   to make the calendar img sink
+3.&gt;56%----- >56%
 
 ### Continued development
 
